@@ -18,6 +18,7 @@
         <module>user-service</module>
         <module>quiz-service</module>
         <module>leaderboard-service</module>
+        <module>eureka-server</module>
     </modules>
 
     <properties>

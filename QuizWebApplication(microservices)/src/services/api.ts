@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// This should be updated with your actual backend URL when deployed
-const API_BASE_URL = process.env.VITE_API_URL || 'http://localhost:8080/api';
+// Use Vite's import.meta.env instead of process.env
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
